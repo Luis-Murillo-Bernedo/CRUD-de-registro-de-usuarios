@@ -1,0 +1,76 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#button2{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#button1{
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+table, th, td {
+    border: 1px solid #ddd; 
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+th {
+    background-color: #4CAF50; /* Fondo verde para celdas de encabezado */
+    color: white; /* Texto blanco en celdas de encabezado */
+}
+table {
+    border-collapse: collapse; /* Fusiona los bordes de las celdas */
+    width: 100%; /* Ancho completo de la tabla */
+}
+td {
+    padding: 8px; /* Espaciado interno de las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+th{
+    text-align: center;
+    padding: 8px; /* Espaciado interno de las celdas */
+}
+a:link, a:visited {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#link1:link, #link1:visited {
+    background-color: grey;
+}
+#link1:hover, #link1:active{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#link2:link, #link2:visited {
+    background-color: red;
+}
+#link2:hover, #link2:active{
+    background-color: rgb(249, 106, 106);
+    border-radius: 5px;
+}
